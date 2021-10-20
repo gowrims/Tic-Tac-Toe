@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Tic-Tac-Toe game</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <script src="myScript.js"></script>
+    </head>
+    <body style="text-align: center;">
+        <h2>Welcome To Tic-Tac-Toe Game</h2>
+        <br>
+        <h2 style = "margin: 0; display : inline">X - Player 1</h2>
+        <!-- <h2 style = "margin: 0; display : inline"> &nbsp; &nbsp; Tie &nbsp; &nbsp;</h2> -->
+        <h2 style = "margin: 0; display : inline">| O - Player 2</h2>
+        <!-- <br>
+        <p id = "Point1" style = "margin: 0; display : inline"> &nbsp;</p>
+        <p id = "Tie" style = "margin: 0; display : inline"> &nbsp; &nbsp;  &nbsp; &nbsp;</p>
+        <p id = "Point2" style = "margin: 0; display : inline"></p> -->
+        <br>   
+        <br> 
+        <table class="center">
+                <tr>
+                    <th>
+                        <input type="text" id = "one" onclick="myXorO('one'); myGame()" readonly>
+                    </th>
+                    <th>
+                        <input type="text" id = "two" onclick = "myXorO('two'); myGame()" readonly>
+                    </th>
+                    <th>
+                        <input type="text" id = "three" onclick="myXorO('three'); myGame()" readonly>
+                    </th>            
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id = "four" onclick="myXorO('four'); myGame()" readonly>
+                    </td>
+                    <td>
+                        <input type="text" id = "five" onclick="myXorO('five'); myGame()" readonly>
+                    </td>
+                    <td>                    
+                        <input type="text" id = "six" onclick="myXorO('six'); myGame()" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" id = "seven" onclick="myXorO('seven'); myGame()" readonly>
+                    </td>
+                    <td>
+                        <input type="text" id = "eight" onclick="myXorO('eight'); myGame()" readonly>
+                    </td>
+                    <td>
+                        <input type="text" id = "nine" onclick="myXorO('nine'); myGame()" readonly>
+                    </td>
+                </tr>
+            </table>
+
+            <h2 id = "hi"></h2>
+           
+            <button id="clear" onclick="Clear()">Restart The Game</button>
+    </body>
+</html>

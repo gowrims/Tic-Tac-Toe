@@ -1,0 +1,27 @@
+table.center 
+{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table, tr, th, td
+{
+    border: 2px solid black;
+    height: 100px;
+    width: 25%;
+}
+
+/*bix design*/
+#one, #two, #three, #four, #five, #six, #seven, #eight, #nine
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#clear
+{
+    width: 10%;
+}
